@@ -4,7 +4,7 @@ import "fmt"
 func main(){
 
 
-	fmt.Println(" HI there " )
+	fmt.Println("HI there ")
 	fmt.Println(1+2+3)
 	var name="rohit is giving it alll to the people"
 	fmt.Println(name);
@@ -38,4 +38,25 @@ func main(){
 			fmt.Println(arr[i][j])
 		}
 	}
+	 var arena[]int;
+	 arena=append(arena,142);
+	 arena=append(arena,142);
+	 arena=append(arena,142);
+	 arena=append(arena,142);
+	 arena=append(arena,142);
+	 fmt.Println(len(arena));
+	 fmt.Println(arena);
+	 n:=[4]int{};
+	 fmt.Println(n);
+	 mpp:=make(map[string]int);
+	 mpp["arr"]=34;
+	 mpp["rem"]=32535;
+	 clear(mpp);
+	 fmt.Println(mpp);
+	 remea:=[34]int{14,325,25,235,234,12,4,124}
+	 fmt.Println(remea)
+    maps:=map[string]int{"jbesgj":13};
+	fmt.Println(maps)
+    
+
 }
