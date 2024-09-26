@@ -1,6 +1,6 @@
 package main
  import "fmt"
-   func printSlice[T interface {}](nums[]T){
+   func printSlice[T string | int](nums[]T){
 	for i:=0;i<len(nums);i++{
 		fmt.Println(nums[i])
 	}
